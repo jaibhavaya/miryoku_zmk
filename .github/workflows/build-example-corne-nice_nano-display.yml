@@ -7,4 +7,6 @@ jobs:
     with:
       board: '["nice_nano"]'
       shield: '["corne_left", "corne_right"]'
-      kconfig: 'CONFIG_MIRYOKU_NAV=VI CONFIG_MIRYOKU_ALPHAS=QWERTY CONFIG_ZMK_DISPLAY=n'
+      nav: '["VI"]'
+      alphas: '["QWERTY"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=n"]'
