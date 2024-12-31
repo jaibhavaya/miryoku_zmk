@@ -9,4 +9,4 @@ jobs:
       shield: '["corne_left", "corne_right"]'
       nav: '["VI"]'
       alphas: '["QWERTY"]'
-      kconfig: '["CONFIG_ZMK_DISPLAY=n"]'
+      kconfig: "[\"CONFIG_ZMK_DISPLAY=n\", \"CONFIG_ZMK_EXTENDED_ADV=n\", \"CONFIG_ZMK_BATTERY=y\", \"CONFIG_ZMK_BATTERY_REPORT=y\"]"
